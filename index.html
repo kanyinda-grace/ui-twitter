@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="fontawesome-free-5.9.0-web/css/all.min.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>Challenge</title>
+</head>
+<body>  <div class="section">
+	<div class="logo">
+		Dubois
+	</div>
+	      <header>
+	      	   <div class="menu">
+	      	   	  <ul>
+	      	   	  	<li> <a href="">A propos</a> </li>
+	      	   	  	<li> <a href="">Presentation de service</a> </li>
+	      	   	  	<li> <a href="">Portefeuille</a></li>
+	      	   	  	<li> <a href="">tarification</a></li>
+	      	   	  	<li> <a href="">Blog</a></li>
+	      	   	  	<li> <a href=""><i class="fa fa-search"></i></a><span></li>
+	      	   	  	<li> <a href=""><i class="fa fa-bars"></i></a><span></li>
+	      	   	  	<li><a href=""><i class="fa fa-shopping-bag"></i><span id="notif">3</span></a></li>	      	   	    
+	      	   	  </ul>
+	      	   </div>
+	       </header>
+	       <div id="menubutton">
+        	<img src="image/menu.png" id="menu">
+        </div>
+           <div id="sideNav">
+            <nav>
+                <ul>
+                    <li style="list-style: none;"><a href="">A propos</a></li>
+                    <li style="list-style: none;"><a href="">Presentation de service</a></li>
+                    <li style="list-style: none;"><a href="" >Portefeuille</a></li>
+                    <li style="list-style: none;"><a href="" >tarification</a></li>
+                    <li style="list-style: none;"><a href="" >Blog</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+
+
+	      	   <div class="section-middle">
+	      	   	  <div class="we-are">
+	      	   	  	<h1>Nous sommes <br>des designers creatifs</h1>
+	      	   	  </div>
+	      	   	  <div class="btn">
+	      	   	  	  <a href="" style="background-color: red;border: solid red"><span></span>  telecharger</a>
+        	  	      <a href=""><span></span>  contacter nous</a>
+	      	   	  </div>
+	      	   </div>
+	    </div>
+
+	      	  
+
+<script>
+	      var menubutton = document.getElementById('menubutton');
+	      var sideNav = document.getElementById('sideNav');
+	      var menu = document.getElementById('menu');
+
+	      sideNav.style.right=="-250px";
+
+	menubutton.onclick = function(){
+		if(sideNav.style.right=="-250px")
+			{
+				sideNav.style.right="0";
+				menu.src="image/close.png";
+			}else{
+            sideNav.style.right="-250px";
+            menu.src="image/menu.png";
+			}
+            }
+
+</script>
+</body>
+</html>
