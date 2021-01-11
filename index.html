@@ -10,72 +10,84 @@
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <title>Challenge</title>
 </head>
-<body>  <div class="section">
-	<div class="logo">
-		Dubois
-	</div>
-	      <header>
-	      	   <div class="menu">
-	      	   	  <ul>
-	      	   	  	<li> <a href="">A propos</a> </li>
-	      	   	  	<li> <a href="">Presentation de service</a> </li>
-	      	   	  	<li> <a href="">Portefeuille</a></li>
-	      	   	  	<li> <a href="">tarification</a></li>
-	      	   	  	<li> <a href="">Blog</a></li>
-	      	   	  	<li> <a href=""><i class="fa fa-search"></i></a><span></li>
-	      	   	  	<li> <a href=""><i class="fa fa-bars"></i></a><span></li>
-	      	   	  	<li><a href=""><i class="fa fa-shopping-bag"></i><span id="notif">3</span></a></li>	      	   	    
-	      	   	  </ul>
-	      	   </div>
-	       </header>
-	       <div id="menubutton">
-        	<img src="image/menu.png" id="menu">
-        </div>
-           <div id="sideNav">
-            <nav>
-                <ul>
-                    <li style="list-style: none;"><a href="">A propos</a></li>
-                    <li style="list-style: none;"><a href="">Presentation de service</a></li>
-                    <li style="list-style: none;"><a href="" >Portefeuille</a></li>
-                    <li style="list-style: none;"><a href="" >tarification</a></li>
-                    <li style="list-style: none;"><a href="" >Blog</a></li>
-                    
-                </ul>
-            </nav>
-        </div>
+<body> 
+  <div class="main">
+  	 <div class="main-wrapper">
+  	 	<div class="left">
+  	     <div class="items-wrapper">
+
+  	     	  <div class="item">
+  	     	  	<span class="icon icon-search ">
+  	     	  		<i class="fas fa-search"></i>
+  	     	  	</span>
+  	     	  	<span class="label" style="color: white; font-weight: bold;font-size: 22px; font-family: sans-serif;">Suivez vos centres d'interets</span>
+  	     	  </div>
 
 
-	      	   <div class="section-middle">
-	      	   	  <div class="we-are">
-	      	   	  	<h1>Nous sommes <br>des designers creatifs</h1>
-	      	   	  </div>
-	      	   	  <div class="btn">
-	      	   	  	  <a href="" style="background-color: red;border: solid red"><span></span>  telecharger</a>
-        	  	      <a href=""><span></span>  contacter nous</a>
-	      	   	  </div>
-	      	   </div>
-	    </div>
+  	     	  <div class="item">
+  	     	  	<span class="icon icon-search ">
+  	     	  		<i class="fas fa-comment"></i>
+  	     	  	</span>
+  	     	  	<span class="label" style="color: white; font-weight: bold;font-size: 22px; font-family: sans-serif;">Decouvre ce dont les gens parle</span>
+  	     	  </div>
 
-	      	  
 
-<script>
-	      var menubutton = document.getElementById('menubutton');
-	      var sideNav = document.getElementById('sideNav');
-	      var menu = document.getElementById('menu');
+  	     	  <div class="item">
+  	     	  	<span class="icon icon-search ">
+  	     	  		<i class="fas fa-user-friends"></i>
+  	     	  	</span>
+  	     	  	<span class="label" style="color: white; font-weight: bold;font-size: 22px; font-family: sans-serif;">Rejoignez la conversation</span>
+  	     	  </div>
 
-	      sideNav.style.right=="-250px";
 
-	menubutton.onclick = function(){
-		if(sideNav.style.right=="-250px")
-			{
-				sideNav.style.right="0";
-				menu.src="image/close.png";
-			}else{
-            sideNav.style.right="-250px";
-            menu.src="image/menu.png";
-			}
-            }
+  	     </div>
+  	 </div>
 
-</script>
+
+
+
+  	 <div class="right">
+  	 	<div class="top">
+  	 	</div>
+  	 	<div class="middle">
+  	 		<span class="icon icon-bird">
+  	 			<i class="fab fa-twitter" style="color: #1da1f2;"></i>
+  	 		</span><br>
+  	 		<h1 style="float: left;">Voici ce qui se passe  <br> actuellement dans <br>le monde</h1>
+  	 		<br><br>
+  	 		<span style="font-size: 17px ; text-decoration: none; font-weight: bold;">Rejoignez Twitter dés aujourdh'hui</span>
+  	 		<a href="" class="btn-signin">S'inscrire</a>
+  	 		<a href="" class="btn-login">Se connecter</a>
+  	 	</div>
+  	 </div>
+  	 </div>
+      <footer class="footer">
+      	<nav >
+      		<ul>
+      			<li>
+      				<a href="">About</a>
+      			</li>
+      			<li>
+      				<a href="">Help Center</a>
+      			</li>
+      			<li>
+      				<a href="">Help Center</a>
+      			</li>
+      			<li>
+      				<a href="">Help Center</a>
+      			</li>
+      			<li>
+      				<a href="">Help Center</a>
+      			</li>
+      			<li>
+      				<a href="">Blog</a>
+      			</li>
+      			
+      			
+      		</ul>
+      	</nav>
+      </footer>
+  </div>
+
 </body>
 </html>
